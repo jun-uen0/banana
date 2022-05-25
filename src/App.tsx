@@ -4,6 +4,7 @@ import banana from './image/banana.png';
 import './App.css';
 import useSound from 'use-sound';
 import Sound from './music/mayu.mp3';
+import { Anime } from './components/Anime';
 
 function App() {
   const [play] = useSound(Sound);
@@ -19,10 +20,7 @@ function App() {
         </div>
         
         <div className="App-list">
-          <p>合宿アニメ</p>
-          <li>ef-a tale of memories.</li>
-          <li>リトバス</li>
-          <li>Air</li>
+          <Anime/>
         </div>
       </header>
     </div>
