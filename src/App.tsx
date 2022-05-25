@@ -19,8 +19,9 @@ function App() {
         </div>
         
         <div className="App-list">
-          <p>みる</p>
-          <li>クラナド</li>
+          <p>合宿アニメ</p>
+          <li>ef-a tale of memories.</li>
+          <li>リトバス</li>
           <li>Air</li>
         </div>
       </header>
