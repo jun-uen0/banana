@@ -1,7 +1,9 @@
-export const Button = () => {
+import Button from '@mui/material/Button'
+
+export const ButtonBlue = () => {
   return (
     <>
-      <button>ボタン</button>
+      <Button variant="contained">ボタンだよ</Button>
     </>
   );
 }
