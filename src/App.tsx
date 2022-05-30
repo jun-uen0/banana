@@ -7,6 +7,7 @@ import Sound from './music/mayu.mp3';
 import { Anime } from './components/Anime';
 import { Camp } from './components/Camp';
 import { Onsen } from './components/Onsen';
+import { Button } from './components/Button';
 import { EnglishStudy } from './components/EnglishStudy';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         </div>
         
         <div className="App-list">
+          <Button/>
           <Anime/>
           <Camp/>
           <Onsen/>
