@@ -10,6 +10,7 @@ import Layout from './components/Layout';
 
 import { EnglishStudy } from './components/EnglishStudy';
 import { Layers } from '@mui/icons-material';
+import { ProSidebar } from 'react-pro-sidebar';
 
 function App() {
   return (
