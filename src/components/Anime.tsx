@@ -11,8 +11,8 @@ export const Anime = () => {
       <li>ef-a tale of memories.</li>
       <li>リトバス</li>
       <li>Re:ゼロ？</li>
-      <p>完了</p>
-      <li>Air</li>
+      <li>[完了] メイドインアビス</li>
+      <li>[完了] Air</li>
     </>
   );
 }

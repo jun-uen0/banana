@@ -7,7 +7,7 @@ import Container from '@material-ui/core/Container'
 import Typography from '@material-ui/core/Typography'
 
 import AppMenu from './AppMenu'
-import { Kichi } from './Kichi';
+import { Banana } from './Banana';
 import { Anime } from './Anime';
 import { Camp } from './Camp';
 import { Onsen } from './Onsen';
@@ -30,11 +30,14 @@ const Layout: React.FC = () => {
       <main className={classes.content}>
         <Container maxWidth="lg" className={classes.container}>
           {/* <Typography>I'm the content</Typography> */}
-          <Kichi />
           <Anime />
+          <br />
           <Camp />
-          <Kichi />
+          <br />
+          {/* <Banana /> */}
+          <br />
           <Onsen />
+          <br />
           <ButtonBlue />
         </Container>
       </main>
