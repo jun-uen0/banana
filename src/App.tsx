@@ -14,19 +14,6 @@ import { ProSidebar } from 'react-pro-sidebar';
 
 function App() {
   return (
-    // <div className="App">
-    //   <header className="App-header">
-        
-    //     <div className="App-list">
-    //       {/* <ButtonBlue/>
-    //       <Anime/>
-    //       <Camp/>
-    //       <Onsen/>
-    //       <EnglishStudy/> */}
-    //       <Layout />
-    //     </div>
-    //   </header>
-    // </div> 
     <Layout />
   );
 }
